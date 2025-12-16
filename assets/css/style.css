@@ -5,11 +5,12 @@
 
 .profile-photo {
     width: 250px;
-    max-width: 100%;
+    max-width: 250px;
+    min-width: 250px;
     height: auto;
-    flex-shrink: 0;
-    border-radius: 8px; 
+    flex: 0 0 250px;
   }
+  
   
 
 @media (max-width: 768px) {
