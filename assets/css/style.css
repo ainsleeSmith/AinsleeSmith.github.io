@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+.moving-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
 .profile-photo {
     width: 250px;
     max-width: 250px;
@@ -11,14 +18,14 @@
     flex: 0 0 250px;
   }
   
-  
-
 @media (max-width: 768px) {
-    .wrapper {
-      max-width: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 1rem;
-    }
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+    .profile-photo {
+        width: 180px;
+      }
   }
   
