@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+.profile-photo {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px; 
+  }
+  
+
 @media (max-width: 768px) {
     .wrapper {
       max-width: 100%;
